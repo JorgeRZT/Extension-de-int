@@ -7,7 +7,7 @@ namespace Extension_de_int
     static public class ExtensionInt
     {
         //Tiene que ser un método "public static" y recibir el parámetro "this"
-        //el cual hace referencia al "objeto" o "dato" desde el cual se invoca al método Between
+        //el cual hace referencia al "objeto" o "dato" desde el cual se invoca al método Between con ese tipo de dato
         public static bool Between(this int valor, int minValor, int maxValor)
         {
             return valor >= minValor && valor <= maxValor;
